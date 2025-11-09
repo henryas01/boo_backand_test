@@ -1,0 +1,28 @@
+# Node modules
+node_modules/
+package-lock.json
+
+# Environment files
+.env
+
+# Logs
+npm-debug.log*
+*.log
+
+# Build outputs
+dist/
+build/
+coverage/
+.tmp/
+.cache/
+
+# TypeScript
+*.tsbuildinfo
+
+# IDE / Editor junk
+.vscode/
+
+
+# OS files
+.DS_Store
+Thumbs.db
