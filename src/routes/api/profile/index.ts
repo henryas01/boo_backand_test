@@ -52,6 +52,7 @@ router.get("/:id", async (req, res) => {
       updated_at: profile.updated_at,
     };
 
+
     res.json(formatted);
   } catch (err) {
     console.error("Error fetching profile:", err);

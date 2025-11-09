@@ -14,7 +14,7 @@ export interface IComment extends Document {
 const CommentSchema: Schema = new Schema<IComment>(
   {
     name: { type: String, required: true },
-    image: { type: String, required: true },
+    image: { type: String, },
     title: { type: String, required: true },
     system_type: {
       type: String,
